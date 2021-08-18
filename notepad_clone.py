@@ -96,12 +96,6 @@ m2.add_command(label="Select All",accelerator="Ctrl+A",command=lambda *awargs:py
 m2.add_command(label="Time Date",command=show_datetime)
 menubar.add_cascade(label="Edit",menu=m2)
 root.config(menu=menubar)
-# #View button
-# m4=Menu(menubar,tearoff=0)
-# m4.add_command(label="Zoom in",command=func())
-# m4.add_command(label="Zoom out",command=func())
-# menubar.add_cascade(label="View",menu=m4)
-# root.config(menu=menubar)
 # #Help button
 m5=Menu(menubar,tearoff=0)
 m5.add_command(label="About Notepad",command=about)
